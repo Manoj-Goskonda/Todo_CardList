@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); */
+  font-family: 'Roboto', sans-serif;
+}
+.add_new_style{
+  text-align-last: right;
+  border: 1px solid;
+  padding: 5px;
+  margin-top: 10px;
+}
+.form_main{
+  border: 1px solid;
+}
+
+.form_data{
+  display: flex;
+  justify-content: space-around;
+}
+
+.add_new{
+  background-color: rgb(99, 99, 245);
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.save{
+  background-color: rgb(99, 99, 245);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+.cancel{
+  background-color: orange;
+  color: #fff;
+  border-radius: 5px; 
+  font-size: 30px;
+}
+
+.card_data{
+  border-radius: 20px;
+  background-color: rgb(72, 72, 253);
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+
+  .form_data {
+    display: grid;
+    justify-content: space-between;
+    text-align-last: end;
+} 
+ 
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+
+  .input{
+    margin-bottom: 5px;
+    margin-left: 5px;
+ }
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+
+  .input1{
+    margin-bottom: 5px;
+    margin-left: 5px;
+ }
+}
+
+@media (min-width: 320px) and (max-width: 640px){
+
+  .save{
+    margin-right: 5px;
+ }
+}
